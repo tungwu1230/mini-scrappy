@@ -10,7 +10,7 @@ Mini-scrappy是一個類似於scrapy輕量且易於使用的Python網路爬蟲�
 
 1. 安裝Mini-scrappy：您可以使用git clone來獲取框架。
 ```zsh
-$ git clone https://github.com/tungwu1230/mini-scrappy
+$ git clone https://github.com/tungwu1230/mini-scrappy.git
 ```
 
 3. 建立一個爬蟲：在`spider`資料夾中，創建一個名為`example_spider.py`的Python檔案，用於定義您的爬蟲。
