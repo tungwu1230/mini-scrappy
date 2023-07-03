@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mini-scrappy"
+version = "0.1.0"
+description = ""
+authors = ["DONGRU WU <tung.wu.1230@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+lxml = "^4.9.2"
+pandas = "^2.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pycodestyle = "^2.10.0"
+mypy = "^1.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
